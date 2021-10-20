@@ -1,7 +1,7 @@
 function App() {
   return (
-    <div className="App">
-      Hello World
+    <div className="bg-gray-200 h-screen flex justify-center items-center">
+      <h1 className="text-6xl font-light text-gray-700">Hello World</h1>
     </div>
   );
 }
