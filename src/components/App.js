@@ -1,14 +1,12 @@
-import AddPersonForm from "./AddPersonForm";
-import PeopleList from "./PeopleList";
+import ContactManager from "./ContactManager";
 
 const contacts = ['Rafsan', 'Ratul', 'Imam', 'Ahad']
 
 function App() {
   return (
-    <div className="bg-gray-200 h-screen container p-5">
+    <div className="bg-gray-200 min-h-screen container p-5">
       <h1 className="text-2xl text-center m-5">Contact Manager</h1>
-      <AddPersonForm />
-      <PeopleList data={contacts}/>
+      <ContactManager data={contacts} />
     </div>
   );
 }

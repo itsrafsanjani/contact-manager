@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 
-function AddPersonForm() {
+function AddPersonForm(props) {
     const [person, setPerson] = useState("")
 
     function handleChange(e) {
@@ -9,6 +9,8 @@ function AddPersonForm() {
     }
 
     function handleSubmit(e) {
+        props.handleSubmit(person)
+        setPerson('')
         e.preventDefault()
     }
 
