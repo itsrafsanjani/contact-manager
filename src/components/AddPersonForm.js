@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 
-function AddPersonForm(params) {
+function AddPersonForm() {
     const [person, setPerson] = useState("")
 
     function handleChange(e) {
