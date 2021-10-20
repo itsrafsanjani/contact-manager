@@ -27,4 +27,4 @@ function AddPersonForm(params) {
 
 }
 
-export default AddPersonForm;
+export default AddPersonForm
