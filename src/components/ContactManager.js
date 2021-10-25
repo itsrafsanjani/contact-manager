@@ -10,7 +10,7 @@ function ContactManager(props) {
     }
 
     return (
-        <div>
+        <div className="flex flex-col justify-center items-center">
             <AddPersonForm handleSubmit={addPerson} />
             <PeopleList data={contacts} />
         </div>
